@@ -1,0 +1,4 @@
+rootProject.name = 'http2-clear-text'
+include 'h2c-java-client'
+include 'h2c-java-server'
+

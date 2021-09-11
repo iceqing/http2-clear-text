@@ -1,4 +1,4 @@
 rootProject.name = 'http2-clear-text'
 include 'h2c-java-client'
-include 'h2c-java-server'
+include 'h2c-spring-boot-server-example'
 

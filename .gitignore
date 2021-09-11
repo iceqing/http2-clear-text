@@ -4,3 +4,7 @@
 *.class
 *.log
 *.iml
+build/
+*/build
+*/.gradle
+local.properties

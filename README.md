@@ -21,6 +21,7 @@ Java 相关工具对H2支持情况
 | Apache HttpClient |        | h2                            | Client        |
 | ok-http           |        | h2                            | Client        |
 | Netty             |        | h2,h2c                        | Client/Server |
+| reactor-netty-http |        | h2,h2c                        | Client/Server |
 | Tomcat            |  8.5+  | h2, h2c                       | Server        |
 | Jetty             |        | h2, h2-17, h2-14, h2c, h2c-17 | Server        |
 | Nginx             | 1.9.5+ | server                        | h2, h2c       |

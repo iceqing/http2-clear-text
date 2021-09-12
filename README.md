@@ -10,7 +10,7 @@ H2C(HTTP/2 Clear Text) Java实现
 * Dubbo 3是否也对 h2c 做了相关实现。
 
 各个工具h2c工具支持情况。
-https://github.com/httpwg/http2-spec/wiki/Implementations
+[http2-spec](https://github.com/httpwg/http2-spec/wiki/Implementations)
 
 Java 相关工具对H2支持情况
 
@@ -21,12 +21,16 @@ Java 相关工具对H2支持情况
 | Apache HttpClient |        | h2                            | Client        |
 | ok-http           |        | h2                            | Client        |
 | Netty             |        | h2,h2c                        | Client/Server |
-| Tomcat            |        | h2, h2c                       | Server        |
+| Tomcat            |  8.5+  | h2, h2c                       | Server        |
 | Jetty             |        | h2, h2-17, h2-14, h2c, h2c-17 | Server        |
 | Nginx             | 1.9.5+ | server                        | h2, h2c       |
 
 
 
-参考：
+spring boot 2.5.0
+自动开启h2c
+Automatically enable h2c when HTTP/2 is enabled without SSL #25856
 
+参考：
+[Tomcat/jetty 支持 Http2 的H2c](https://blog.csdn.net/sinat_33189520/article/details/103716544)
 [阿里集团业务驱动的升级 —— 聊一聊Dubbo 3.0 的演进思路](https://mp.weixin.qq.com/s/rAXzEcEWJelUJVc69Hz_jw)
